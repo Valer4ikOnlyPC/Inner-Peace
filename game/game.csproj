@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF3288A5-447B-4DF0-AF7B-3673DA24AD96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>game</RootNamespace>
+    <AssemblyName>game</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>images.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource10.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource11.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource12.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource2.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource3.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource4.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource5.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource6.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource7.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource8.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource9.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource10.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource10.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource11.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource11.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource12.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource12.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource2.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource2.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource3.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource3.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource4.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource4.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource5.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource5.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource6.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource6.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource7.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource7.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource8.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource8.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource9.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource9.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\фон.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bitmap1.bmp" />
+    <Content Include="images.ico" />
+    <None Include="Resources\дым_9.png" />
+    <None Include="Resources\дым_8.png" />
+    <None Include="Resources\дым_7.png" />
+    <None Include="Resources\дым_6.png" />
+    <None Include="Resources\дым_5.png" />
+    <None Include="Resources\дым_4.png" />
+    <None Include="Resources\дым_3.png" />
+    <None Include="Resources\дым_2.png" />
+    <None Include="Resources\дым_1.png" />
+    <None Include="Resources\дым6.png" />
+    <None Include="Resources\дым5.png" />
+    <None Include="Resources\дым4.png" />
+    <None Include="Resources\дым3.png" />
+    <None Include="Resources\дым2.png" />
+    <None Include="Resources\дым1.png" />
+    <None Include="Resources\pole___new2.png" />
+    <None Include="Resources\pole___%28new%29.png" />
+    <None Include="Resources\level4_m.wav" />
+    <None Include="Resources\level3_m.wav" />
+    <None Include="Resources\level2_m.wav" />
+    <None Include="Resources\level1_m.wav" />
+    <None Include="Resources\ending.wav" />
+    <None Include="Resources\Sprite-stand18.png" />
+    <None Include="Resources\Sprite-stand17.png" />
+    <None Include="Resources\Sprite-stand16.png" />
+    <None Include="Resources\Sprite-stand15.png" />
+    <None Include="Resources\Sprite-stand14.png" />
+    <None Include="Resources\Sprite-stand13.png" />
+    <None Include="Resources\Sprite-stand12.png" />
+    <None Include="Resources\Sprite-stand11.png" />
+    <None Include="Resources\Sprite-stand10.png" />
+    <None Include="Resources\Sprite-stand9.png" />
+    <None Include="Resources\Sprite-stand8.png" />
+    <None Include="Resources\Sprite-stand7.png" />
+    <None Include="Resources\Sprite-stand6.png" />
+    <None Include="Resources\Sprite-stand5.png" />
+    <None Include="Resources\Sprite-stand4.png" />
+    <None Include="Resources\Sprite-stand3.png" />
+    <None Include="Resources\Sprite-stand2.png" />
+    <None Include="Resources\Sprite-stand1.png" />
+    <None Include="Resources\удар_10.png" />
+    <None Include="Resources\удар_9.png" />
+    <None Include="Resources\удар_8.png" />
+    <None Include="Resources\удар_7.png" />
+    <None Include="Resources\удар_6.png" />
+    <None Include="Resources\удар_5.png" />
+    <None Include="Resources\удар_4.png" />
+    <None Include="Resources\удар_3.png" />
+    <None Include="Resources\удар_2.png" />
+    <None Include="Resources\удар_1.png" />
+    <None Include="Resources\удар6.png" />
+    <None Include="Resources\удар5.png" />
+    <None Include="Resources\удар4.png" />
+    <None Include="Resources\удар3.png" />
+    <None Include="Resources\удар2.png" />
+    <None Include="Resources\удар1.png" />
+    <None Include="Resources\стоит 4.png" />
+    <None Include="Resources\стоит 3.png" />
+    <None Include="Resources\стоит 2.png" />
+    <None Include="Resources\стоит 1.png" />
+    <None Include="Resources\pole___.png" />
+    <None Include="Resources\фон___5.png" />
+    <None Include="Resources\фон___4.png" />
+    <None Include="Resources\фон___3.png" />
+    <None Include="Resources\фон___2.png" />
+    <None Include="Resources\фон___1.png" />
+    <None Include="Resources\_пут17.png" />
+    <None Include="Resources\_пут16.png" />
+    <None Include="Resources\_пут15.png" />
+    <None Include="Resources\_пут14.png" />
+    <None Include="Resources\_пут13.png" />
+    <None Include="Resources\_пут12.png" />
+    <None Include="Resources\_пут11.png" />
+    <None Include="Resources\_пут10.png" />
+    <None Include="Resources\_пут9.png" />
+    <None Include="Resources\_пут8.png" />
+    <None Include="Resources\_пут7.png" />
+    <None Include="Resources\_пут6.png" />
+    <None Include="Resources\_пут5.png" />
+    <None Include="Resources\_пут4.png" />
+    <None Include="Resources\_пут3.png" />
+    <None Include="Resources\_пут2.png" />
+    <None Include="Resources\_пут1.png" />
+    <None Include="Resources\пут123.png" />
+    <None Include="Resources\пут24.png" />
+    <None Include="Resources\пут22.png" />
+    <None Include="Resources\пут21.png" />
+    <None Include="Resources\пут20.png" />
+    <None Include="Resources\пут19.png" />
+    <None Include="Resources\пут18.png" />
+    <None Include="Resources\пут17.png" />
+    <None Include="Resources\пут16.png" />
+    <None Include="Resources\пут15.png" />
+    <None Include="Resources\пут14.png" />
+    <None Include="Resources\пут13.png" />
+    <None Include="Resources\пут12.png" />
+    <None Include="Resources\пут11.png" />
+    <None Include="Resources\пут10.png" />
+    <None Include="Resources\пут9.png" />
+    <None Include="Resources\пут8.png" />
+    <None Include="Resources\пут7.png" />
+    <None Include="Resources\пут6.png" />
+    <None Include="Resources\пут5.png" />
+    <None Include="Resources\пут4.png" />
+    <None Include="Resources\пут3.png" />
+    <None Include="Resources\пут2.png" />
+    <None Include="Resources\пут1.png" />
+    <None Include="Resources\13вин.jpg" />
+    <None Include="Resources\12вин.jpg" />
+    <None Include="Resources\11вин.jpg" />
+    <None Include="Resources\10вин.jpg" />
+    <None Include="Resources\9вин.jpg" />
+    <None Include="Resources\8вин.jpg" />
+    <None Include="Resources\7вин.jpg" />
+    <None Include="Resources\6вин.jpg" />
+    <None Include="Resources\5вин.jpg" />
+    <None Include="Resources\4вин.jpg" />
+    <None Include="Resources\3вин.jpg" />
+    <None Include="Resources\2вин.jpg" />
+    <None Include="Resources\1вин.jpg" />
+    <None Include="Resources\s1200.png" />
+    <None Include="Resources\вин7.jpg" />
+    <None Include="Resources\вин6.jpg" />
+    <None Include="Resources\вин5.jpg" />
+    <None Include="Resources\вин4.jpg" />
+    <None Include="Resources\вин3.jpg" />
+    <None Include="Resources\вин2.jpg" />
+    <None Include="Resources\вин1.jpg" />
+    <None Include="Resources\pole_.png" />
+    <None Include="Resources\s1200.jpg" />
+    <None Include="Resources\pole2.png" />
+    <None Include="Resources\pole1.png" />
+    <None Include="Resources\фон__4.PNG" />
+    <None Include="Resources\фон__3.PNG" />
+    <None Include="Resources\фон__2.PNG" />
+    <None Include="Resources\фон__1.PNG" />
+    <None Include="Resources\фон_4.PNG" />
+    <None Include="Resources\фон_3.PNG" />
+    <None Include="Resources\фон_2.PNG" />
+    <None Include="Resources\фон_1.PNG" />
+    <None Include="Resources\Sprite-0003-sit.png" />
+    <None Include="Resources\Sprite-0002-sit.png" />
+    <None Include="Resources\Sprite-0004-punch .png" />
+    <None Include="Resources\Sprite-0003-punch.png" />
+    <None Include="Resources\Sprite-0002-punch2 .png" />
+    <None Include="Resources\Sprite-0001-punch.png" />
+    <None Include="Resources\Sprite-0003-damage.png" />
+    <None Include="Resources\Sprite-0002-damage.png" />
+    <None Include="Resources\Sprite-0001-damage.png" />
+    <None Include="Resources\Sprite-0007-stand.png" />
+    <None Include="Resources\Sprite-0006-stand.png" />
+    <None Include="Resources\Sprite-0005-stand.png" />
+    <None Include="Resources\Sprite-0004-stand.png" />
+    <None Include="Resources\Sprite-0003-stand.png" />
+    <None Include="Resources\Sprite-0002-stand.png" />
+    <None Include="Resources\Sprite-0001-stand.png" />
+    <None Include="Resources\поц10.PNG" />
+    <None Include="Resources\поц9.PNG" />
+    <None Include="Resources\поц8.PNG" />
+    <None Include="Resources\поц7.PNG" />
+    <None Include="Resources\поц6.PNG" />
+    <None Include="Resources\поц5.PNG" />
+    <None Include="Resources\поц4.PNG" />
+    <None Include="Resources\поц3.PNG" />
+    <None Include="Resources\поц2.PNG" />
+    <None Include="Resources\поц1.PNG" />
+    <None Include="Resources\файт2.PNG" />
+    <None Include="Resources\файт1.PNG" />
+    <None Include="Resources\Sprite-0001.png" />
+    <None Include="Resources\spr_5.png" />
+    <None Include="Resources\spr_4.png" />
+    <None Include="Resources\spr_3.png" />
+    <None Include="Resources\spr_2.png" />
+    <None Include="Resources\spr_1.png" />
+    <None Include="Resources\Sprite-0005.png" />
+    <None Include="Resources\Sprite-0004.png" />
+    <None Include="Resources\Sprite-0003.png" />
+    <None Include="Resources\Sprite-0002.png" />
+    <None Include="Resources\pole.png" />
+    <None Include="Resources\unnamed.jpg" />
+    <None Include="Resources\sp0.png" />
+    <None Include="Resources\spr4.png" />
+    <None Include="Resources\spr3.png" />
+    <None Include="Resources\spr2.png" />
+    <None Include="Resources\spr1.png" />
+    <None Include="Resources\sp4.PNG" />
+    <None Include="Resources\sp3.PNG" />
+    <None Include="Resources\sp2.PNG" />
+    <None Include="Resources\sp1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
